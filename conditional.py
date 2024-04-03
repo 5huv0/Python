@@ -50,3 +50,16 @@ print(eat)
 food1 = input("item : ")
 
 print("Eat it ") if food1 == "beef" or food1 == "mutton" else print("Do not eat it ")
+
+
+#---------------------------------------------------------------------------------------------------------------
+
+#type casting
+
+a = 10
+b = "2"
+c = int(b)
+
+sum = a + c
+
+print (sum)
