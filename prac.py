@@ -112,3 +112,27 @@
 
 
 #-------------------------------------------------------------------------------
+
+# grades = ("C", "A", "B", "A", "A", "B" ,"A")
+
+
+# count = grades.count("A")
+# print(count)
+
+
+#-------------------------------------------------------------------------------
+
+# list = []
+
+# list.append(str(input("Input grades : ")))
+# list.append(str(input("Input grades : ")))
+# list.append(str(input("Input grades : ")))
+# list.append(str(input("Input grades : ")))
+# list.append(str(input("Input grades : ")))
+# list.append(str(input("Input grades : ")))
+
+# sorted = list.sort()
+
+# print(list)
+
+# print(sorted)
