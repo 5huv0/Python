@@ -99,4 +99,16 @@
 
 
 #-------------------------------------------------------------------------------
+# make a list and check if the list is palindrome or not 
 
+# list = [1, 2, 3, 2, 1]
+# listC = list.copy()
+# listC.reverse()
+
+# if(listC == list):
+#     print("It is  palindromic")
+# else:
+#     print("It is not palindromic")
+
+
+#-------------------------------------------------------------------------------
