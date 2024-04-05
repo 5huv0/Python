@@ -9,8 +9,25 @@
 
 # Slicing of List 
 
-name = ['shuvo', 'rahim', 'karim', 'tarek']
+# name = ['shuvo', 'rahim', 'karim', 'tarek']
 
-y = name[1 : 3]
+# y = name[1 : 3]
 
-print(y)
+# print(y)
+
+#--------------------------------------------------------------------------------------
+
+# Methods
+
+# list.append()  add something in the end
+# list.sort() sorts in ascending order
+# list.sort(reverse=True) sorts in descending order
+# list.reverse() reverse list 
+# list.insert(idx,el) insert element at specific index
+
+
+list = [8, 1, 2, 3, 4, 5]
+
+list.insert(2, 10)
+
+print(list)
