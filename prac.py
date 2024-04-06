@@ -158,10 +158,26 @@
 
 #--------------------------------------------------------------------------------
 
-phy = int(input("Marks of Physics : "))
-chem = int(input("Marks of Chemistry : "))
-math = int(input("Marks of Math : "))
+# dict = {}
 
-dict = {}
+# x = int(input("enter the marks of phy : "))
+# dict.update({"Physics" : x})
 
-dict.update()
+# y = int(input("enter the marks of chem : "))
+# dict.update({"Chemistry" : y})
+
+# z = int(input("enter the marks of bio : "))
+# dict.update({"Biology" : z})
+
+
+# print(dict)
+
+
+
+#--------------------------------------------------------------------------------
+
+
+
+# set = ("9.00", 9)
+
+# print(set)
