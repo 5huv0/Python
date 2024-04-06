@@ -136,3 +136,32 @@
 # print(list)
 
 # print(sorted)
+
+
+#-------------------------------------------------------------------------------
+
+# dict = {
+#     "table" : "a piece of furniture" ,
+#     "cat" : "a small animal",
+#     "theory" : "list of fact and figures"
+# }
+
+# print(dict)
+
+
+#--------------------------------------------------------------------------------
+
+
+# subjects = {"python", "java", "C++", "python", "js", "java", "python", "java", "C++", "C"}
+# print(len(subjects))
+
+
+#--------------------------------------------------------------------------------
+
+phy = int(input("Marks of Physics : "))
+chem = int(input("Marks of Chemistry : "))
+math = int(input("Marks of Math : "))
+
+dict = {}
+
+dict.update()
