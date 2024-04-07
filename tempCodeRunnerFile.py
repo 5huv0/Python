@@ -1,7 +1,9 @@
-seq = range(10)
+n = int(input("Enter number : "))
+# sum = 1
+# i = 1
 
-# for i in seq:
-#     print(i)
-
-# for j in range(6): # only stop given
-#     print(j)
+# while i <= n:
+#     sum += i
+#     i += 1
+ 
+# print("Total sum : ", sum)
