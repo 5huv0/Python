@@ -181,3 +181,48 @@
 # set = ("9.00", 9)
 
 # print(set)
+
+
+#--------------------------------------------------------------------------------
+
+# number = int(input("Input which times table you want to see : "))
+# stop = int(input("Input where you want to stop the time table : "))
+# i = 1
+
+
+# while i <= stop:
+#     mult = number * i
+#     print(number ,"x", i, "=", mult)
+#     i += 1 
+
+
+
+#--------------------------------------------------------------------------------
+
+# list = [1, 3, 9, 16, 25, 56, 78, 45]
+# length = len(list) - 1
+# i = 0
+# newL = []
+
+
+# while i <= length:
+#     print(list[i])
+#     i += 1
+
+
+#--------------------------------------------------------------------------------
+
+
+search = int(input("enter : "))
+
+num = (1, 3, 9, 16, 25, 56, 78, 45)
+i = 0
+length = len(num) - 1
+
+
+while i <= length : 
+    if(num[i] == search):
+        print("found")
+    else:
+        print("finding")
+    i += 1
