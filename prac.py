@@ -213,16 +213,17 @@
 #--------------------------------------------------------------------------------
 
 
-# search = int(input("enter : "))
+search = int(input("enter : "))
 
-# num = (1, 3, 9, 16, 25, 56, 78, 45)
-# i = 0
-# length = len(num) - 1
+num = (1, 3, 9, 16, 25, 56, 78, 45)
+i = 0
+length = len(num) - 1
 
 
-# while i <= length : 
-#     if(num[i] == search):
-#         print("found")
-#     else:
-#         print("finding")
-#     i += 1
+while i <= length : 
+    if(num[i] == search):
+        print("found")
+        break  # can also use continue
+    else:
+        print("finding...")
+    i += 1
