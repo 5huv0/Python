@@ -323,12 +323,12 @@
 
 #--------------------------------------------------------------------------------
 
-def list_print(list , idx = 0):
-    if(idx == len(list)):
-        return
-    print(list[idx])
-    list_print(list , idx + 1)
+# def list_print(list , idx = 0):
+#     if(idx == len(list)):
+#         return
+#     print(list[idx])
+#     list_print(list , idx + 1)
 
-fruits = ["mango", "banana", "apple"]    
+# fruits = ["mango", "banana", "apple"]    
 
-list_print(fruits)
+# list_print(fruits)
