@@ -313,12 +313,22 @@
 
 #--------------------------------------------------------------------------------
 
-def sum(n):
-  if(n == 0):
-    return 0
-  return sum(n-1) + n
+# def sum(n):
+#   if(n == 0):
+#     return 0
+#   return sum(n-1) + n
 
-summ = sum(9)   
-print(summ)
+# summ = sum(9)   
+# print(summ)
 
 #--------------------------------------------------------------------------------
+
+def list_print(list , idx = 0):
+    if(idx == len(list)):
+        return
+    print(list[idx])
+    list_print(list , idx + 1)
+
+fruits = ["mango", "banana", "apple"]    
+
+list_print(fruits)
