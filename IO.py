@@ -22,7 +22,7 @@
 
 f = open("./files/demo.txt", "a")
 
-data = f.write("ok now add a new line i my file ")
+data = f.write("\n ok now add a new line i my file ")
 print(data)
 
 f.close()
