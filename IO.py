@@ -1,5 +1,7 @@
 # Open Read files
 
+
+
 # f = open("./files/demo.txt", "r")
 
 # data = f.read()
@@ -8,7 +10,11 @@
 
 # f.close()
 
+#-------------------------------------------------------------------
+
 # Open Write files
+
+
 
 # f = open("./files/demo.txt", "w")
 
@@ -18,7 +24,12 @@
 # f.close()
 
 
+#--------------------------------------------------------------------
+
 # Open Append files
+
+
+
 
 f = open("./files/demo.txt", "a")
 
