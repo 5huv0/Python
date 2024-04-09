@@ -42,3 +42,10 @@ f.close()
 # r+ for readig and writing
 # w+ for reading and writing but it will wipe old data
 # a+ for read and writing and append
+
+
+
+#--------------------------------------------------------------------------
+# Deleting a file
+
+import os
