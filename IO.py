@@ -37,3 +37,8 @@ data = f.write("\n ok now add a new line i my file ")
 print(data)
 
 f.close()
+
+
+# r+ for readig and writing
+# w+ for reading and writing but it will wipe old data
+# a+ for read and writing and append
