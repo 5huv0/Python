@@ -36,8 +36,8 @@ f.close()
 # r+ for readig and writing
 # w+ for reading and writing but it will wipe old data
 # a+ for read and writing and append
-
-
+# data.replace() for replacing data
+# data.find() for finding data
 
 #--------------------------------------------------------------------------
 # Deleting a file
