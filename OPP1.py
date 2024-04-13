@@ -24,12 +24,18 @@ class Student:
         self.marks = marks
         print("you know nothing...")
 
+    def Welcome(self):
+        print("Welcome", self.name)    
+
+
+
 s1 = Student("mahi", 88)
 print(s1.name)
 print(s1.marks)
 print(s1.collegeName)
 
 s2 = Student("gobin", 67)
+s2.Welcome()
 print(s2.name)
 print(s2.marks)
 
