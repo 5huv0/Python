@@ -332,3 +332,22 @@
 # fruits = ["mango", "banana", "apple"]    
 
 # list_print(fruits)
+
+
+#--------------------------------------------------------------------------------
+
+class Students():
+    def __init__(self, Fname, Phy, Math, Chem):
+        self.name = Fname
+        self.phy = Phy
+        self.math = Math
+        self.chem = Chem
+
+    def avg(self):
+        average = (self.phy + self.math + self.chem) / 3
+        print(s1.name, "youe average mark is : ", average)
+
+
+s1 = Students("mahi", 89, 78, 98)
+print(s1.name, s1.phy, s1.chem, s1.math)
+s1.avg()
