@@ -50,21 +50,45 @@
 
 # Static method that dont use self param
 
-class Cars:
+# class Cars:
 
-    def __init__(self, Bname, Model):
-        self.name = Bname
-        self.model = Model
-
-
-    @staticmethod
-    def Brands():
-        print("This is my cars name and model : ")
+#     def __init__(self, Bname, Model):
+#         self.name = Bname
+#         self.model = Model
 
 
-s1 = Cars("Audi", "B40983")
-s1.Brands()
-print(s1.name, s1.model)  
+#     @staticmethod
+#     def Brands():
+#         print("This is my cars name and model : ")
+
+
+# s1 = Cars("Audi", "B40983")
+# s1.Brands()
+# print(s1.name, s1.model)  
+
+
+# 4 pillers of Object Orientation Programming : Abstraction, Encapsulation, Inheritance, Polymorphism
 
 
 
+#----------------------------------------------------------------
+# Abstraction
+
+class Car:
+    def __init__(self):
+        self.acc = False
+        self.brk = False
+        self.clutch = False
+
+    def start(self):
+        self.acc = True
+        self.clutch = True
+        print("car started.....")
+
+
+car1 = Car()
+car1.start()
+
+
+#----------------------------------------------------------------
+# Encapsulation
