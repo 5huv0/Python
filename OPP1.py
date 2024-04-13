@@ -43,3 +43,8 @@ print(s2.marks)
 s3 = Student("hog",68)
 print(s3.name)
 print(s3.marks)
+
+
+#----------------------------------------------------------------
+
+# Static method that dont use self param
