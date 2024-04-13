@@ -348,6 +348,6 @@ class Students():
         print(s1.name, "youe average mark is : ", average)
 
 
-s1 = Students("mahi", 89, 78, 98)
+s1 = Students("mahi", 80, 78, 98)
 print(s1.name, s1.phy, s1.chem, s1.math)
 s1.avg()
