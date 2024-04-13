@@ -50,11 +50,7 @@
 
 # Static method that dont use self param
 
-class Cars:
-    @staticmethod
-    def Brands():
-        print("hi")
 
 
 
-        
+
