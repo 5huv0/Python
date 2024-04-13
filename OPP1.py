@@ -50,7 +50,21 @@
 
 # Static method that dont use self param
 
+class Cars:
 
+    def __init__(self, Bname, Model):
+        self.name = Bname
+        self.model = Model
+
+
+    @staticmethod
+    def Brands():
+        print("This is my cars name and model : ")
+
+
+s1 = Cars("Audi", "B40983")
+s1.Brands()
+print(s1.name, s1.model)  
 
 
 
