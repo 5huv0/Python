@@ -48,3 +48,4 @@ print(s3.marks)
 #----------------------------------------------------------------
 
 # Static method that dont use self param
+
