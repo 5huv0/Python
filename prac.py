@@ -354,3 +354,30 @@
 
 
 #--------------------------------------------------------------------------------
+
+# class Account:
+#     def __init__(self,name, balance, accNo):
+#         self.name = name
+#         self.balance = balance
+#         self.accNO = accNo
+
+#     def credit(self):
+#          add = int(input("Credit ammout : "))
+#          newB = add + self.balance
+#          print("Your account has been credited with : ", add)
+#          print("Your new balance is : ", newB)
+
+
+#     def debit(self):
+#          minus = int(input("Debit ammout : "))
+#          newB = self.balance - minus
+#          print("Your account has been credited with : ", minus)
+#          print("Your new balance is : ", newB)
+
+
+# user1 = Account("Mohan", 20348, "ASDJ7856ASD65324K")
+# print("Dear", user1.name, "Your current balance is : ", user1.balance, "& your account number is : ", user1.accNO)
+# user1.debit()
+
+
+
