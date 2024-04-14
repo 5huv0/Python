@@ -83,20 +83,43 @@
 #----------------------------------------------------------------------
 # classmethods 
 
-class Person:
-    name = "mukul"
+# class Person:
+#     name = "mukul"
 
 
-    @classmethod
-    def changeName(cls, name):
-        cls.name = name
+#     @classmethod
+#     def changeName(cls, name):
+#         cls.name = name
 
 
-p1 = Person()
-p1.changeName("kumar")
-print(p1.name)
-print(Person.name)
+# p1 = Person()
+# p1.changeName("kumar")
+# print(p1.name)
+# print(Person.name)
 
 
 
 #----------------------------------------------------------------------
+
+# property decorator
+
+class Students:
+    def __init__(self, phy, chem, math):
+        self.phy = phy
+        self.chem = chem
+        self.math = math
+
+    
+    @property
+    def percentage(self):
+        return str((self.phy + self.chem + self.math) / 3) + "%"
+    
+
+
+
+std1 = Students(89,98,97)
+print(std1.percentage)
+
+
+std1.phy = 76
+print(std1.percentage)
