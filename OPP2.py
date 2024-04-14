@@ -103,23 +103,30 @@
 
 # property decorator
 
-class Students:
-    def __init__(self, phy, chem, math):
-        self.phy = phy
-        self.chem = chem
-        self.math = math
+# class Students:
+#     def __init__(self, phy, chem, math):
+#         self.phy = phy
+#         self.chem = chem
+#         self.math = math
 
     
-    @property
-    def percentage(self):
-        return str((self.phy + self.chem + self.math) / 3) + "%"
+#     @property
+#     def percentage(self):
+#         return str((self.phy + self.chem + self.math) / 3) + "%"
     
 
 
 
-std1 = Students(89,98,97)
-print(std1.percentage)
+# std1 = Students(89,98,97)
+# print(std1.percentage)
 
 
-std1.phy = 76
-print(std1.percentage)
+# std1.phy = 76
+# print(std1.percentage)
+
+
+#----------------------------------------------------------------------
+
+# polymorphism : operator overloading
+
+
