@@ -55,30 +55,48 @@
 #----------------------------------------------------------------------
 # Super method of inheritance
 
-class Car:
+# class Car:
 
-    def __init__(self, type):
-        self.type = type
+#     def __init__(self, type):
+#         self.type = type
 
-    color = "black"
-    @staticmethod
-    def start():
-        print("Car started....")
+#     color = "black"
+#     @staticmethod
+#     def start():
+#         print("Car started....")
 
-    @staticmethod
-    def stop():
-        print("Car stopped!!!!")
+#     @staticmethod
+#     def stop():
+#         print("Car stopped!!!!")
 
-class Toyota(Car):
-    def __init__(self, name, type):
-        super().__init__(type)
-        super().start()
-        self.name = name
+# class Toyota(Car):
+#     def __init__(self, name, type):
+#         super().__init__(type)
+#         super().start()
+#         self.name = name
         
     
-car1 = Toyota("supra", "fuel")
-print(car1.type, car1.start())
+# car1 = Toyota("supra", "fuel")
+# print(car1.type, car1.start())
 
 
 #----------------------------------------------------------------------
+# classmethods 
+
+class Person:
+    name = "mukul"
+
+
+    @classmethod
+    def changeName(cls, name):
+        cls.name = name
+
+
+p1 = Person()
+p1.changeName("kumar")
+print(p1.name)
+print(Person.name)
+
+
+
 #----------------------------------------------------------------------
