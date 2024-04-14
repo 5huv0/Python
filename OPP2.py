@@ -30,7 +30,36 @@
 #----------------------------------------------------------------------
 # Inheritance
 
+# class Car:
+#     color = "black"
+#     @staticmethod
+#     def start():
+#         print("Car started....")
+
+#     @staticmethod
+#     def stop():
+#         print("Car stopped!!!!")
+
+# class Toyota(Car):
+#     def __init__(self, name):
+#         self.name = name
+
+# class Supra(Toyota):
+#     def __init__(self, type):
+#         self.type = type
+
+# car1 = Supra("diesel")
+# car1.start()
+# print(car1.color, car1.type)
+
+#----------------------------------------------------------------------
+# Super method of inheritance
+
 class Car:
+
+    def __init__(self, type):
+        self.type = type
+
     color = "black"
     @staticmethod
     def start():
@@ -41,17 +70,15 @@ class Car:
         print("Car stopped!!!!")
 
 class Toyota(Car):
-    def __init__(self, name):
+    def __init__(self, name, type):
+        super().__init__(type)
+        super().start()
         self.name = name
+        
+    
+car1 = Toyota("supra", "fuel")
+print(car1.type, car1.start())
 
-class Supra(Toyota):
-    def __init__(self, type):
-        self.type = type
 
-car1 = Supra("diesel")
-car1.start()
-print(car1.color, car1.type)
-
-#----------------------------------------------------------------------
 #----------------------------------------------------------------------
 #----------------------------------------------------------------------
