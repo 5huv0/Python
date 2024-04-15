@@ -138,13 +138,42 @@ class Complex:
     def showNum(self):
         print(self.real, "i + ", self.img, "j" )
 
+    def __add__(self, num2):
+        newReal = self.real + num2.real
+        newImg = self.img + num2.img
+        return Complex(newReal, newImg)
+    
+    def __sub__(self, num2):
+        newReal = self.real - num2.real
+        newImg = self.img - num2.img
+        return Complex(newReal, newImg)
+    
+    # def __mul____(self, num2):
+    #     newReal = self.real * num2.real
+    #     newImg = self.img * num2.img
+    #     return Complex(newReal, newImg)
+    
+    # def __truediv____(self, num2):
+    #     newReal = self.real / num2.real
+    #     newImg = self.img / num2.img
+    #     return Complex(newReal, newImg)
+
 
 
 num1 = Complex(2, 3)
 num1.showNum()
 
-
-
 num2 = Complex(5, 7)
 num2.showNum()
 
+num3 = num1 + num2
+num3.showNum()
+
+num3 = num1 - num2
+num3.showNum()
+
+# num3 = num1 * num2
+# num3.showNum()
+
+# num3 = num1 / num2
+# num3.showNum()

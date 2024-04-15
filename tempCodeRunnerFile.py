@@ -1,1 +1,2 @@
-print(user1.__accPass)
+num3 = num1 / num2
+# num3.showNum()
