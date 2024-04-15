@@ -129,4 +129,22 @@
 
 # polymorphism : operator overloading
 
+class Complex:
+    def __init__(self, real, img):
+        self.real = real
+        self.img = img
+
+
+    def showNum(self):
+        print(self.real, "i + ", self.img, "j" )
+
+
+
+num1 = Complex(2, 3)
+num1.showNum()
+
+
+
+num2 = Complex(5, 7)
+num2.showNum()
 
